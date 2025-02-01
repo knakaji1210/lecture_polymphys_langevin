@@ -89,7 +89,7 @@ fig.text(0.15, 0.65, fig_text4)
 fig.text(0.15, 0.60, fig_text5)
 fig.text(0.15, 0.50, result_text)
 
-savefile = "./png/LangevinParticle_2d_averagedMSD_{0}steps_{1}repetition".format(N, M)
+savefile = "./png/LangevinParticle_2d_averagedMSD_N{0}_M{1}".format(N, M)
 fig.savefig(savefile, dpi=300)
 
 plt.show()
